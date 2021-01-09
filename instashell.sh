@@ -1,6 +1,6 @@
 #!/bin/bash
 # Coded by: github.com/thelinuxchoice
-# Instagram: @thelinuxchoice
+# Instagram: @ilona_borutska
 
 trap 'store;exit 1' 2
 string4=$(openssl rand -hex 32 | cut -c 1-4)
@@ -54,7 +54,7 @@ printf "\e[1;77m\e[45m  Instagram Brute Forcer v1.5.4 Author: thelinuxchoice (Gi
 printf "\n"
 }
 
-function start() {
+function start() {service tor start
 banner
 checkroot
 dependencies
